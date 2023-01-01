@@ -5,7 +5,7 @@ defmodule Nxtest.MixProject do
     [
       app: :nxtest,
       version: "0.1.0",
-      elixir: "~> 1.15-dev",
+      elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -29,6 +29,8 @@ defmodule Nxtest.MixProject do
       {:explorer, "~> 0.4.0"},
       {:csv, "~> 3.0"},
       {:httpoison, "~> 1.8"},
+      #{:torchx, "~> 0.4.1"}
+      {:exla, "~> 0.2"}
     ]
   end
 end
