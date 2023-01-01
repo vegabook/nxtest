@@ -28,6 +28,7 @@ defmodule Nxtest.MixProject do
       {:nx, "~> 0.4.0"},
       {:explorer, "~> 0.4.0"},
       {:csv, "~> 3.0"},
+      {:httpoison, "~> 1.8"},
     ]
   end
 end
