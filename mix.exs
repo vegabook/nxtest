@@ -26,11 +26,12 @@ defmodule Nxtest.MixProject do
       #{:axon, "~> 0.3.0"},
       #{:exla, "~> 0.4.0"},
       {:nx, "~> 0.4.0"},
-      {:explorer, "~> 0.4.0"},
+      {:exla, "~> 0.4.0"},
+      {:xla, "~> 0.4.3"},
       {:csv, "~> 3.0"},
       {:httpoison, "~> 1.8"},
       #{:torchx, "~> 0.4.1"}
-      {:exla, "~> 0.2"}
+      #{:explorer, "~> 0.4.0"},
     ]
   end
 end
